@@ -1,0 +1,20 @@
+{
+  "name": "transpiler",
+  "version": "1.0.0",
+  "description": "CLI tool to transpile TypeScript files using esbuild",
+  "main": "dist/index.js",
+  "bin": {
+    "transpiler": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "esbuild": "^0.20.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "typescript": "^5.3.0"
+  }
+}

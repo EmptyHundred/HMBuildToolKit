@@ -1,0 +1,11 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "TypeScript development toolchain",
+  "scripts": {
+    "typecheck": "node scripts/typechecker/dist/index.js",
+    "lint": "node scripts/linter/dist/index.js",
+    "transpile": "node scripts/transpiler/dist/index.js",
+    "errmap": "node scripts/errmapper/dist/index.js"
+  }
+}

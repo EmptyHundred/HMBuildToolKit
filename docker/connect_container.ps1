@@ -1,0 +1,1 @@
+docker exec -it claudets-1 /bin/sh
