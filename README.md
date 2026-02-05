@@ -27,12 +27,16 @@ The primary goal of this system is to enable end-users or developers to generate
 ### Build All Tools
 
 ```bash
+sed -i 's/\r$//' build_all.sh
+
 bash ./build_all.sh
 ```
 
 ### Clean Build Artifacts
 
 ```bash
+sed -i 's/\r$//' clear_all.sh
+
 bash ./clear_all.sh
 ```
 
