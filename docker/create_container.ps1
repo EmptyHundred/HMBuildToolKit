@@ -1,1 +1,1 @@
-docker run -it --name claudets-1 -v D:\Projects\claudetserver:/app claudetserver
+docker run -it --name claudets-1 -v "${PWD}\..:/app" claudetserver
